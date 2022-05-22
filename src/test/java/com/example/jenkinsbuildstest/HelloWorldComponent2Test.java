@@ -1,16 +1,10 @@
 package com.example.jenkinsbuildstest;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HelloWorldComponentTest {
-
-    @Test
-    public void testHello(HelloWorldComponent helloWorldComponent) {
-
-    }
+class HelloWorldComponent2Test {
 
     @Test
     public void testHello2(HelloWorldComponent helloWorldComponent) {
