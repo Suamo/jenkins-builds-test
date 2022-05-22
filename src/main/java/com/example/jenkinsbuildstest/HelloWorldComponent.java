@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 
 @Component
-public class HelloWorld {
+public class HelloWorldComponent {
 
     @PostConstruct
     public void hello() {
